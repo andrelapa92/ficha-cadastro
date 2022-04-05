@@ -24,7 +24,7 @@
 			<div class="col">
 				<div class="mb-3">
   					<label for="celular" class="form-label">Celular</label>
-  					<input type="text" class="form-control" id="celular" placeholder="48999999999">
+  					<input type="text" class="form-control phone_with_ddd" id="celular" placeholder="48999999999">
 				</div>
 			</div>
 			<div class="col">
@@ -73,7 +73,7 @@
 			<div class="col">
 				<div class="mb-3">
   					<label for="input-cep" class="form-label">CEP</label>
-  					<input type="text" onblur="ConsultaCep()" autocomplete="no" class="form-control" id="input-cep" placeholder="CEP (somente números)">
+  					<input type="text" onblur="ConsultaCep()" autocomplete="no" class="form-control cep" id="input-cep" placeholder="CEP (somente números)">
 					<p id="localidade" style="margin-bottom: 0;"></p>
 					<p id="logradouro"></p>
 				</div>
